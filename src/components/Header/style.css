@@ -1,0 +1,16 @@
+#Header h1 {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+
+#Header .back {
+  position: absolute;
+  left: 15px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#Header .back svg {
+  color: red;
+}

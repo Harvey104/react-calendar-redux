@@ -1,0 +1,17 @@
+#Footer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--secondary-color);
+  color: #fff;
+  height: 70px;
+}
+
+#Footer span {
+  margin-left: 5px;
+  margin-right: 5px;
+}

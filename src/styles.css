@@ -1,0 +1,61 @@
+:root {
+  --primary-color: #2d3142;
+  --secondary-color: #fc6812;
+  --teriary-color: #bfc0c0;
+  --background-color: #fff;
+}
+
+.color-calendar.basic {
+  --cal-color-primary: var(--primary-color);
+  --cal-font-family-header: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+  --cal-font-family-weekdays: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+  --cal-font-family-body: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+  --cal-drop-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+  --cal-border: none;
+  --cal-border-radius: 0.5rem;
+  --cal-header-color: var(--primary-color);
+  --cal-header-background-color: rgba(0, 0, 0, 0.3);
+
+  --cal-weekdays-color: var(--primary-color);
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  user-select: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+}
+
+p,
+label {
+  color: var(--primary-color);
+}
+
+p {
+  margin: 10px;
+}

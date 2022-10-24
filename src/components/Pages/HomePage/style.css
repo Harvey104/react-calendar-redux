@@ -1,0 +1,28 @@
+#HomePage {
+  text-align: center;
+  padding-top: 30px;
+  height: 100vh;
+}
+
+#HomePage h1 {
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+#HomePage .link {
+  transition: 0.5s;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  text-decoration: none;
+  color: var(--secondary-color);
+  -webkit-tap-highlight-color: transparent;
+}
+
+#HomePage .link:hover {
+  color: var(--teriary-color);
+}
+
+#HomePage .link {
+  margin-bottom: 40px;
+}

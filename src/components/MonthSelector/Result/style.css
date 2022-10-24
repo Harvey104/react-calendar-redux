@@ -1,0 +1,57 @@
+#Result h2 {
+  margin-top: 30px;
+}
+
+#Result .lists {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  text-align: left;
+  margin-bottom: 90px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#Result .column {
+  display: table-cell;
+  justify-content: center;
+  width: 25%;
+}
+
+#Result .lists li {
+  list-style-type: none;
+}
+
+#Result .result-list {
+  margin-top: 15px;
+}
+
+#Result .result-list .result-item {
+  height: 50px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  #Result .lists {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #Result .column {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #Result .lists {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  #Result .column {
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}

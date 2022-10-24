@@ -1,0 +1,9 @@
+#EventPage {
+  text-align: center;
+  padding-top: 20px;
+  height: 100vh;
+}
+
+#EventPage h1 {
+  padding-top: 5px;
+}
